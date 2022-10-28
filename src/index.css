@@ -1,14 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    border: 0;
+    outline: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
+
+:root {
+    --header_height: 60px;
+    --contain-width: 85%;
+
+
+    --color-line: rgba(194, 194, 194, 1);
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-text-message: rgba(255, 255, 255, 0.85);
+    --color-text-message-friend: rgba(0, 0, 0, 0.65);
+    --color-message-bg: #0066cc;
+    --color-message-friend-bg: #eef7f8;
+    --color-error-style: #880000;
+
+    --shadow-block-message: 0px 5px 10px -10px rgba(34, 60, 80, 0.7);
+}
+
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-    'Helvetica Neue', sans-serif;
+    font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif ;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
@@ -18,3 +41,5 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

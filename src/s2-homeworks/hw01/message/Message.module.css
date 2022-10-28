@@ -1,31 +1,67 @@
 .message {
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 1rem;
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    width: 100%;
 }
 
 .imageAndText img {
-
+    width: 64px;
+    height: 64px;
 }
 
 .text {
+    background: var(--color-message-bg);
+    border-radius: .4rem;
+    padding: 1rem .6rem;
+    line-height: 1.25;
+    margin-right: 1rem;
+    position: relative;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 60%;
 }
 
 .text:after {
-
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 22px solid var(--color-message-bg);
 }
 
 .name {
-
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--color-white);
+    text-align: end;
+    margin-bottom: 0.2rem;
 }
 
 .messageText {
-
+    color: var(--color-text-message);
+    font-size: 1rem;
+    font-family: 'Poppins';
+    white-space: pre-line;
+    text-align: justify;
 }
 
 .time {
-
+    font-size: .7rem;
+    font-weight: 700;
+    margin-right: 1rem;
+    margin-top: .4rem;
 }

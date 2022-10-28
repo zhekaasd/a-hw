@@ -1,35 +1,58 @@
 .button {
+    padding: .255rem 1.2rem;
+    border-radius: .2rem;
+    font-weight: 500;
+    font-family: 'Poppins';
+    cursor: pointer;
+    color: var(--color-white);
 }
 
 .disabled {
+    color: #212A34;
+    opacity: .7;
+    background: #2e58a1;
+}
+.disabled:hover {
+    cursor: default;
 }
 
 .secondary {
+    background: var(--color-white);
+    color: var(--color-message-bg);
+    border: 1px solid var(--color-message-bg);
 }
 
 .default {
+    background: var(--color-message-bg);
 }
 
 .red {
+    background: #af0020;
 }
 
 .default:hover {
+    opacity: .75;
 }
 
 .red:hover {
+    opacity: .75;
 }
 
 .secondary:hover {
+    background: rgb(221, 238, 255);
 }
 
 
 .default:active {
+    background: #0022b7;
 }
 
 .secondary:active {
+    background: rgb(195, 221, 255);
 }
 
 .red:active {
+    background: #940000;
 }
 
 .button:disabled {
