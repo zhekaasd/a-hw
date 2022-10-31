@@ -11,7 +11,7 @@
 }
 
 :root {
-    --header_height: 60px;
+    --header_height: 60px calc(100px - (100vw - 100%)) 60px 60px;
     --contain-width: 85%;
 
 

@@ -2,7 +2,6 @@ import React from 'react'
 import Message from './message/Message'
 import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
-import s1 from './HW1.module.css'
 import FriendMessage from './friend-message/FriendMessage'
 import avatar from './avatar.png'
 import avatar2 from './avatar2.png'
@@ -54,7 +53,7 @@ export const friendMessage0: MessageType = {
 
 const HW1 = () => {
     return (
-        <div className={s1.hw1} id={'hw1'}>
+        <div id={'hw1'} style={{position: 'relative'}}>
             <div className={s2.hwTitle}>Homework #1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
