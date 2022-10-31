@@ -1,7 +1,9 @@
 .spanBlock {
+    display: flex;
 }
 
 .span {
+    color: #0080FF;
 }
 
 .input {

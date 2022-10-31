@@ -1,5 +1,9 @@
 .buttonsContainer {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 3.2rem;
 }
 
 .editableSpanContainer {
+    padding: 1rem 0;
 }
