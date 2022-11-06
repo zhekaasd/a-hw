@@ -1,23 +1,52 @@
 .item {
+
+    padding: .5rem 0;
 }
 
 .item:last-of-type {
+    border: none;
 }
 
 .users {
+    border-collapse: collapse;
+}
+
+.users > tbody > tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid lightgray;
+
 }
 
 .buttonsContainer {
+    align-self: flex-end;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
 }
 
 .thead {
+    background: lightgray;
+    font-weight: 700;
+}
+
+.thead > tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: .5rem 0;
+}
+
+.users > tbody > tr > td:last-child {
+    font-weight: 500;
 }
 
 .nameCol {
+    margin-left: .4rem;
 }
 
 .ageCol {
+    font-weight: 700;
 }
