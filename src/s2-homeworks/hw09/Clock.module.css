@@ -1,7 +1,13 @@
 .buttonsContainer {
+    display: flex;
+    justify-content: space-between;
 }
 
 .clock {
+    font-size: 1.4rem;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .watch {
@@ -11,4 +17,6 @@
 }
 
 .more {
+    color: lightgrey;
+    font-size: 1rem;
 }
