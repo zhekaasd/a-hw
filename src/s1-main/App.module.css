@@ -4,6 +4,7 @@
 
 .hw {
     padding: var(--header_height);
+    position: relative;
 }
 
 .hw:after {

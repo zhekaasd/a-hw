@@ -2,7 +2,23 @@
 }
 
 .wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wrapper span > span:first-child {
+    color: #575757;
+}
+
+.wrapper span > span:nth-child(3), span > span:last-child{
+    border: 7px solid white;
+    outline: 3px solid green;
+    width: 16px;
+    height: 16px;
 }
 
 .number {
+    margin: 0 26px;
+    font-weight: 700;
 }
