@@ -41,7 +41,6 @@ const HW13 = () => {
 
             })
             .catch((e) => {
-                debugger
                 if(e.response.status >= 400 && e.response.status < 500) {
                     setImage(error400);
                     setCode('Код ' + e.response.status + '!');
