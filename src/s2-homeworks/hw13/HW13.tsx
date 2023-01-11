@@ -41,14 +41,14 @@ const HW13 = () => {
 
             })
             .catch((e) => {
-                console.log(e)
+                debugger
                 if(e.response.status >= 400 && e.response.status < 500) {
                     setImage(error400);
                     setCode('Код ' + e.response.status + '!');
                     setText(e.response.data.errorText);
                     setInfo(e.response.data.info);
                 }
-                else if (e.response.status >= 400 && e.response.status < 500) {
+                else if (e.response.status >= 500) {
                     setImage(error500);
                     setCode('Код ' + e.response.status + '!');
                     setText(e.response.data.errorText);
